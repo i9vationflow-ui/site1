@@ -1,0 +1,25 @@
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L6] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L10] User: Vc sempre me deixa no vácuo
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L11] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L14] Assistant: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh session.
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L16] User: Oi vamos acordar
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L17] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L22] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L27] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L32] Assistant: Olá, Mestre! Peço mil desculpas. Parece que eu tive um problema técnico sério nas últimas horas e acabei ficando travado, mas agora o sistema foi restabelecido e estou de volta à ativa. 🛡️ Como posso te ajudar agora? Estou pronto para as ordens.
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L33] Assistant: Olá, Mestre! Peço mil desculpas. Parece que eu tive um problema técnico sério nas últimas horas e acabei ficando travado, mas agora o sistema foi restabelecido e estou de volta à ativa. 🛡️ Como posso te ajudar agora? Estou pronto para as ordens.
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L34] User: Vamos fazer um check-up geral deixe a data e horário São Paulo Brasil, autorizo tudo ok.
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L35] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L40] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L45] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L50] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L54] User: Vamos fazer um check-up geral deixe a data e horário São Paulo Brasil, autorizo tudo ok.
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L55] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L59] User: Vamos fazer um check-up geral deixe a data e horário São Paulo Brasil, autorizo tudo ok.
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L60] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L64] User: esqueceu de mim?
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L65] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L68] Assistant: ⚠️ Something went wrong while processing your request. Please try again, or use /new to start a fresh session.
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L70] User: Vamos fazer um check-up geral deixe a data e horário São Paulo Brasil, autorizo tudo ok.
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L74] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/4297c096-bbf9-4357-a34d-bcdc9fdd56e8.jsonl#L79] Assistant: [assistant turn failed before producing content]

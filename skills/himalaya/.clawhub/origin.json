@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "himalaya",
+  "installedVersion": "1.0.0",
+  "installedAt": 1784767793217,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "4b72efdc3ecb16544a965e5f420de34423de0a7091a79282ce57c800889b21f0",
+    "integrity": "sha256-S3Lv3D7LFlRKll5fQg3jRCPeCnCRp5KCzlfIAIibIfA="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "2265054da976a3d9ec3d55b66888233cb39509ea4703abed8066382e5b4fc14f"
+  }
+}

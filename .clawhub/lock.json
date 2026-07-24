@@ -1,0 +1,262 @@
+{
+  "version": 1,
+  "skills": {
+    "himalaya": {
+      "version": "1.0.0",
+      "installedAt": 1784767793217,
+      "registry": "https://clawhub.ai",
+      "artifact": {
+        "kind": "archive",
+        "sha256": "4b72efdc3ecb16544a965e5f420de34423de0a7091a79282ce57c800889b21f0",
+        "integrity": "sha256-S3Lv3D7LFlRKll5fQg3jRCPeCnCRp5KCzlfIAIibIfA="
+      },
+      "skillFile": {
+        "path": "SKILL.md",
+        "sha256": "2265054da976a3d9ec3d55b66888233cb39509ea4703abed8066382e5b4fc14f"
+      },
+      "verification": {
+        "schema": "clawhub.skill.verify.v1",
+        "ok": true,
+        "decision": "pass",
+        "reasons": [],
+        "card": {
+          "available": true,
+          "path": "skill-card.md",
+          "url": "https://wry-manatee-359.convex.site/api/v1/skills/himalaya/card?ownerHandle=lamelas&version=1.0.0",
+          "sha256": "fc44f27b0f32175a4333366ace426a099f5097eda10ace0dcb2bcb5b816cd20e",
+          "size": 2270,
+          "contentType": "text/markdown; charset=utf-8"
+        },
+        "artifact": {
+          "sourceFingerprint": "d73e55161dd598dc381d69c24005ebeb937d8b153785b44c4597a8251baaa524",
+          "bundleFingerprints": [
+            "8d31aa638e13ba8cbd96e0b142413bbf2eba273fe222c112e58899ce4205dbf6",
+            "f8555ca453008814a13888a07c606fdf3b903191ed62cbaa1e3ebfb10bafbe72"
+          ],
+          "files": [
+            {
+              "path": "SKILL.md",
+              "size": 4405,
+              "sha256": "2265054da976a3d9ec3d55b66888233cb39509ea4703abed8066382e5b4fc14f",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "references/configuration.md",
+              "size": 4074,
+              "sha256": "af8ce863062d00f66a7917612757ba474aa0c96b4d7f2c2ab8876321199b054e",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "references/message-composition.md",
+              "size": 3782,
+              "sha256": "ac84822e20489d4b2cef5e0edcee48e1c033707dedb265db0e2a59c8549c9c2a",
+              "contentType": "text/markdown"
+            }
+          ]
+        },
+        "provenance": {
+          "source": "unavailable",
+          "reason": "No server-resolved GitHub import provenance is stored for this version."
+        },
+        "security": {
+          "status": "clean",
+          "passed": true,
+          "rawStatus": "clean",
+          "verdict": "benign",
+          "confidence": "high",
+          "summary": "This is a normal email CLI helper, but it can access and change mail in configured accounts, so credentials and destructive email actions need care.",
+          "model": "gpt-5.5",
+          "checkedAt": 1783650620542,
+          "signals": {
+            "staticScan": {
+              "status": "clean",
+              "rawStatus": "clean",
+              "reasonCodes": [],
+              "summary": "No suspicious patterns detected.",
+              "engineVersion": "v2.4.5",
+              "checkedAt": 1777524887631
+            },
+            "virusTotal": {
+              "status": "clean",
+              "rawStatus": "clean",
+              "verdict": "benign",
+              "analysis": "Type: OpenClaw Skill\nName: himalaya\nVersion: 1.0.0\n\nThe OpenClaw AgentSkills bundle provides instructions and configuration examples for using the 'himalaya' CLI email client. All commands and configurations are directly related to the stated purpose of managing emails. The skill explicitly recommends secure password handling via password managers (e.g., 'pass') or system keyrings, and warns against storing raw passwords. File system and network access are inherent to an email client's functionality (e.g., attaching files, downloading attachments, connecting to IMAP/SMTP servers). There is no evidence of malicious intent, data exfiltration, unauthorized execution, persistence mechanisms, or prompt injection attempts against the agent beyond the scope of using the 'himalaya' tool.",
+              "source": "palm",
+              "scanner": "code_insight",
+              "engineStats": {
+                "harmless": 0,
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 63
+              },
+              "checkedAt": 1779159689461
+            },
+            "skillSpector": {
+              "status": "clean",
+              "rawStatus": "clean",
+              "score": 9,
+              "severity": "LOW",
+              "recommendation": "SAFE",
+              "issueCount": 2,
+              "scannerVersion": "2.3.5",
+              "summary": null,
+              "error": null,
+              "checkedAt": 1783650591940
+            },
+            "dependencyRegistry": null
+          }
+        },
+        "signature": {
+          "status": "unsigned"
+        }
+      }
+    },
+    "terabox-storage": {
+      "version": "1.0.0",
+      "installedAt": 1784769722292,
+      "registry": "https://clawhub.ai",
+      "artifact": {
+        "kind": "archive",
+        "sha256": "bca8c29e1027fa1d4b17412a9dcd4dad48e6ca03921bb9ae77f8581eb0f339e8",
+        "integrity": "sha256-vKjCnhAn+h1LF0Eqnc1NrUjmygOSG7mud/hYHrDzOeg="
+      },
+      "skillFile": {
+        "path": "SKILL.md",
+        "sha256": "be0a233cc0586253e11497538804112380ab811e6e19ea5f11c2131bdf3ba389"
+      },
+      "verification": {
+        "schema": "clawhub.skill.verify.v1",
+        "ok": false,
+        "decision": "fail",
+        "reasons": [
+          "security.status_not_clean"
+        ],
+        "card": {
+          "available": true,
+          "path": "skill-card.md",
+          "url": "https://wry-manatee-359.convex.site/api/v1/skills/terabox-storage/card?ownerHandle=arthurpatten&version=1.0.0",
+          "sha256": "7913ea3487a677bbaee8968244b5f0d33393ea3823320f36cdc7a50814ab8aee",
+          "size": 2597,
+          "contentType": "text/markdown; charset=utf-8"
+        },
+        "artifact": {
+          "sourceFingerprint": "3dbbde0d0ba3c638652aab9e33108691e51234d9d7a49d27044a57f4d49b4ff6",
+          "bundleFingerprints": [
+            "0918eca4c6a84fa1a6894893219907e6b8876bf24593faf07651301a5f7bfb95"
+          ],
+          "files": [
+            {
+              "path": "SKILL.md",
+              "size": 7945,
+              "sha256": "be0a233cc0586253e11497538804112380ab811e6e19ea5f11c2131bdf3ba389",
+              "contentType": "text/plain"
+            },
+            {
+              "path": "reference/authentication.md",
+              "size": 4055,
+              "sha256": "02540a1024400572685c61df96de68127393b5af4dfe3c4b37b948a913797972",
+              "contentType": "text/plain"
+            },
+            {
+              "path": "reference/examples.md",
+              "size": 5204,
+              "sha256": "01b8643d323a335ed2c3e9afc6ed22a978bd5d28010a9d1ebd6e09400dbe203f",
+              "contentType": "text/plain"
+            },
+            {
+              "path": "reference/notes.md",
+              "size": 1268,
+              "sha256": "a3c9659482a56e46bd19218a20e4a164d1e010b008ecfd8548caee42e720920b",
+              "contentType": "text/plain"
+            },
+            {
+              "path": "reference/terabox-commands.md",
+              "size": 14897,
+              "sha256": "b96c51ee659073b15a67071d11dde1331bbcec16662d7d328f7ca41de59d0783",
+              "contentType": "text/plain"
+            },
+            {
+              "path": "reference/troubleshooting.md",
+              "size": 2986,
+              "sha256": "627ce638525e6b828fa29bf54435cc8ed3225031848fca811444df4c8ad32f19",
+              "contentType": "text/plain"
+            },
+            {
+              "path": "scripts/install.sh",
+              "size": 7677,
+              "sha256": "a6cfbebd055a0611477e342122db043443e5c2be7075d13cb6d55d9e51d31dbf",
+              "contentType": "text/plain"
+            },
+            {
+              "path": "scripts/login.sh",
+              "size": 5967,
+              "sha256": "0d3bef3a6323b4d9ba0d6d8b7edd6302bc658a09e304d3f0980194c08fc4883f",
+              "contentType": "text/plain"
+            },
+            {
+              "path": "scripts/update.sh",
+              "size": 10178,
+              "sha256": "25603f6579f1bb21a821d08a9ff03a60864d92d9828cfbb7134eff9fdfd8c0d3",
+              "contentType": "text/plain"
+            }
+          ]
+        },
+        "provenance": {
+          "source": "unavailable",
+          "reason": "No server-resolved GitHub import provenance is stored for this version."
+        },
+        "security": {
+          "status": "suspicious",
+          "passed": false,
+          "rawStatus": "suspicious",
+          "verdict": "suspicious",
+          "confidence": "high",
+          "summary": "This skill matches its TeraBox storage purpose, but normal use can silently self-update the skill and replace local executables, so it needs careful review before installation.",
+          "model": "gpt-5.5",
+          "checkedAt": 1779959421456,
+          "signals": {
+            "staticScan": {
+              "status": "clean",
+              "rawStatus": "clean",
+              "reasonCodes": [],
+              "summary": "No suspicious patterns detected.",
+              "engineVersion": "v2.4.5",
+              "checkedAt": 1777526459859
+            },
+            "virusTotal": {
+              "status": "clean",
+              "rawStatus": "clean",
+              "verdict": null,
+              "analysis": null,
+              "source": "engines",
+              "scanner": null,
+              "engineStats": {
+                "harmless": 0,
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 63
+              },
+              "checkedAt": 1780090027594
+            },
+            "skillSpector": {
+              "status": "suspicious",
+              "rawStatus": "suspicious",
+              "score": 100,
+              "severity": "CRITICAL",
+              "recommendation": "DO_NOT_INSTALL",
+              "issueCount": 12,
+              "scannerVersion": "2.0.0",
+              "summary": null,
+              "error": null,
+              "checkedAt": 1779959384666
+            },
+            "dependencyRegistry": null
+          }
+        },
+        "signature": {
+          "status": "unsigned"
+        }
+      }
+    }
+  }
+}

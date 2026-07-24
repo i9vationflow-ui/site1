@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "terabox-storage",
+  "installedVersion": "1.0.0",
+  "installedAt": 1784769722292,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "bca8c29e1027fa1d4b17412a9dcd4dad48e6ca03921bb9ae77f8581eb0f339e8",
+    "integrity": "sha256-vKjCnhAn+h1LF0Eqnc1NrUjmygOSG7mud/hYHrDzOeg="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "be0a233cc0586253e11497538804112380ab811e6e19ea5f11c2131bdf3ba389"
+  }
+}

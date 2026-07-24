@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="I9vation Soluções em Tecnologia - Inteligência e Alta Tecnologia desde 1995. Consultoria, Desenvolvimento, Segurança, IA e Infraestrutura para empresas que buscam resultados.">
+    <meta name="theme-color" content="#0066CC">
+    <title>I9vation Soluções em Tecnologia | Inteligência e Alta Tecnologia desde 1995</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container" aria-label="Navegação principal">
+            <a href="index.html" class="nav__logo" aria-label="I9vation - Página inicial">
+                <svg class="nav__logo-icon" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                    <rect width="32" height="32" rx="8" fill="currentColor"/>
+                    <path d="M8 16L14 22L24 10" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="nav__logo-text">I9vation</span>
+            </a>
+            <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menu">
+                <span class="nav__toggle-icon" aria-hidden="true"></span>
+            </button>
+            <ul class="nav__menu" id="nav-menu" role="menubar">
+                <li role="none"><a href="index.html" class="nav__link" role="menuitem">Início</a></li>
+                <li role="none"><a href="servicos/index.html" class="nav__link" role="menuitem">Serviços</a></li>
+                <li role="none"><a href="casos.html" class="nav__link" role="menuitem">Cases</a></li>
+                <li role="none"><a href="sobre.html" class="nav__link" role="menuitem">Sobre</a></li>
+                <li role="none"><a href="blog/index.html" class="nav__link" role="menuitem">Blog</a></li>
+                <li role="none"><a href="contato.html" class="nav__link nav__link--cta" role="menuitem">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero__background" aria-hidden="true">
+                <div class="hero__grid"></div>
+                <div class="hero__orb hero__orb--1"></div>
+                <div class="hero__orb hero__orb--2"></div>
+            </div>
+            <div class="container hero__content">
+                <div class="hero__text">
+                    <span class="hero__badge" aria-label="Desde 1995">
+                        <svg class="hero__badge-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm0-14a6 6 0 1 1 0 12 6 6 0 0 1 0-12z"/>
+                            <path d="M8 4a.75.75 0 0 1 .75.75v3.19l2.72 2.72a.75.75 0 1 1-1.06 1.06L8.75 10.06V13.5a.75.75 0 0 1-1.5 0v-3.44L5.31 11.06a.75.75 0 1 1-1.06-1.06L7.25 8.94V4.75A.75.75 0 0 1 8 4z"/>
+                        </svg>
+                        <span>Desde 1995 · 29 anos de mercado</span>
+                    </span>
+                    <h1 id="hero-title" class="hero__title">
+                        Inteligência e Alta Tecnologia<br>a serviço do seu negócio
+                    </h1>
+                    <p class="hero__subtitle">
+                        Consultoria, desenvolvimento, segurança, IA e infraestrutura para empresas que buscam resultados reais. 
+                        Entregamos soluções personalizadas com ROI mensurável.
+                    </p>
+                    <div class="hero__actions">
+                        <a href="contato.html" class="btn btn--primary btn--lg">
+                            <span>Iniciar Projeto</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/5511999999999" class="btn btn--secondary btn--lg" target="_blank" rel="noopener noreferrer">
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.466-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.454.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.472.099-.174.05-.369-.025-.52-.075-.148-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378 9.86 9.86 0 0 1-.473-.288 9.9 9.9 0 0 1-2.487-2.567 9.79 9.79 0 0 1-.297-.531l-.358-.472a.79.79 0 0 1-.004-.927l.496-.338c.198-.149.32-.452.297-.777-.007-.197-.099-.371-.273-.545-.173-.173-.472-.297-.847-.297-.272 0-.545.1-.746.323-.372.372-1.007 1.303-.98 3.05.027 1.719 1.36 3.141 3.032 3.141.946 0 1.791-.408 2.376-1.12.586-.713.883-1.516.883-2.346 0-.812-.32-1.558-.916-2.108-.148-.124-.27-.199-.446-.273a.77.77 0 0 1-.272-.694c0-.323.198-.52.47-.596.273-.08 1.806-.47 3.503-.794.688-.127 1.334-.244 1.934-.347.586-.104 1.208-.26 1.732-.442.626-.216 1.123-.462 1.525-.788.373-.3.654-.643.793-1.017.123-.328.074-.655-.124-.883-.198-.227-.618-.634-.967-.807-.348-.174-1.26-.371-2.223-.545-2.097-.373-3.988-.808-3.988-2.879 0-.868.32-1.719.94-2.42.62-.7.1894-1.28 2.79-1.72 1.76-.4.355-.72.768-.946 1.17-.223.4-.372.937-.372 1.558 0 .62.15 1.213.423 1.732.273.52.64 1.017 1.089 1.49.472.473.992.822 1.568 1.02.59.198 1.228.297 1.87.297.713 0 1.425-.273 2.04-.873.669-.6.98-1.26 1.08-1.82.099-.52.074-1.017-.173-1.515-.248-.497-.768-1.02-1.465-1.293-.423-.174-.846-.297-1.293-.372-.472-.075-1.07-.223-1.517-.297-.423-.075-.872-.1-.1322-.124Z"/>
+                            </svg>
+                            <span>WhatsApp</span>
+                        </a>
+                    </div>
+                    <div class="hero__stats" aria-label="Estatísticas da empresa">
+                        <div class="hero__stat">
+                            <span class="hero__stat-number" data-count="29">0</span>
+                            <span class="hero__stat-label">Anos de Mercado</span>
+                        </div>
+                        <div class="hero__stat">
+                            <span class="hero__stat-number" data-count="500">0</span>
+                            <span class="hero__stat-label">Projetos Entregues</span>
+                        </div>
+                        <div class="hero__stat">
+                            <span class="hero__stat-number" data-count="99">0</span>
+                            <span class="hero__stat-label">% Uptime Garantido</span>
+                        </div>
+                        <div class="hero__stat">
+                            <span class="hero__stat-number" data-count="120">0</span>
+                            <span class="hero__stat-label">Clientes Ativos</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__visual" aria-hidden="true">
+                    <div class="hero__card hero__card--1">
+                        <div class="hero__card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+                        </div>
+                        <h3>ERP & CRM</h3>
+                        <p>Implantação e customização</p>
+                    </div>
+                    <div class="hero__card hero__card--2">
+                        <div class="hero__card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="2"/><line x1="12" y1="22" x2="12" y2="18"/><polyline points="22 18 12 22 2 18"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+                        </div>
+                        <h3>Segurança</h3>
+                        <p>IDS/IPS, Firewall, LGPD</p>
+                    </div>
+                    <div class="hero__card hero__card--3">
+                        <div class="hero__card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2z"/><path d="M12 6v6l4 2"/></svg>
+                        </div>
+                        <h3>Inteligência Artificial</h3>
+                        <p>Análise preditiva, automação</p>
+                    </div>
+                    <div class="hero__card hero__card--4">
+                        <div class="hero__card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+                        </div>
+                        <h3>Infraestrutura</h3>
+                        <p>Linux/Windows, Cloud, VOIP</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__scroll" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+            </div>
+        </section>
+
+        <section class="services" aria-labelledby="services-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="services-title" class="section-title">Nossos Serviços</h2>
+                    <p class="section-subtitle">Soluções completas para transformar a tecnologia da sua empresa</p>
+                </header>
+                <div class="services__grid">
+                    <article class="service-card">
+                        <div class="service-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+                        </div>
+                        <h3 class="service-card__title">Consultoria Especializada</h3>
+                        <p class="service-card__desc">ERP, CRM, SCM, Linux/Unix, Windows Server, Firewall, Redes, VOIP, IDS/IPS, Inteligência Artificial</p>
+                        <ul class="service-card__features">
+                            <li>Soluções com IA integrada</li>
+                            <li>Proteção avançada IDS/IPS</li>
+                            <li>Infraestrutura high-performance</li>
+                        </ul>
+                        <a href="servicos/index.html#consultoria" class="service-card__link">Ver detalhes <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                        </div>
+                        <h3 class="service-card__title">Análise Estratégica</h3>
+                        <p class="service-card__desc">Diagnóstico completo, mapeamento de processos, análise de performance, avaliação de segurança, ROI e viabilidade</p>
+                        <ul class="service-card__features">
+                            <li>Análise preditiva com IA</li>
+                            <li>Identificação de riscos antecipada</li>
+                            <li>Plano de ação executivo</li>
+                        </ul>
+                        <a href="servicos/index.html#analise" class="service-card__link">Ver detalhes <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        </div>
+                        <h3 class="service-card__title">Prototipação</h3>
+                        <p class="service-card__desc">Produção de protótipos para visão real do planejamento, desenvolvimento e concretização de projetos</p>
+                        <ul class="service-card__features">
+                            <li>Validação antes do desenvolvimento</li>
+                            <li>Redução de retrabalho</li>
+                            <li>Alinhamento de expectativas</li>
+                        </ul>
+                        <a href="servicos/index.html#prototipacao" class="service-card__link">Ver detalhes <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 18 2 12 8 6"/></svg>
+                        </div>
+                        <h3 class="service-card__title">Desenvolvimento</h3>
+                        <p class="service-card__desc">Processo acompanhado por especialistas para segurança, robustez e confiabilidade nos produtos finais</p>
+                        <ul class="service-card__features">
+                            <li>Code review contínuo</li>
+                            <li>Testes automatizados</li>
+                            <li>CI/CD integrado</li>
+                        </ul>
+                        <a href="servicos/index.html#desenvolvimento" class="service-card__link">Ver detalhes <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                        </div>
+                        <h3 class="service-card__title">Implantação</h3>
+                        <p class="service-card__desc">Executada por especialistas visando diminuição de riscos e transição suave para o novo ambiente</p>
+                        <ul class="service-card__features">
+                            <li>Plano de rollback</li>
+                            <li>Migração em etapas</li>
+                            <li>Validação pós-implantação</li>
+                        </ul>
+                        <a href="servicos/index.html#implantacao" class="service-card__link">Ver detalhes <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-card__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        </div>
+                        <h3 class="service-card__title">Treinamento & Suporte</h3>
+                        <p class="service-card__desc">Treinamento completo pós-implantação + suporte reativo e proativo com patamares aceitáveis de SLA</p>
+                        <ul class="service-card__features">
+                            <li>Suporte 24/7 disponível</li>
+                            <li>Monitoramento proativo</li>
+                            <li>Base de conhecimento</li>
+                        </ul>
+                        <a href="servicos/index.html#suporte" class="service-card__link">Ver detalhes <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                    </article>
+                </div>
+                <div class="services__cta">
+                    <a href="servicos/index.html" class="btn btn--outline btn--lg">Ver Todos os Serviços</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="diferenciais" aria-labelledby="diferenciais-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="diferenciais-title" class="section-title">Por que I9vation?</h2>
+                    <p class="section-subtitle">Nosso diferencial está na entrega, não na promessa</p>
+                </header>
+                <div class="diferenciais__grid">
+                    <article class="diferencial">
+                        <div class="diferencial__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        </div>
+                        <h3>IA Embutida</h3>
+                        <p>Análise preditiva e automação inteligente em todos os projetos, não como adicional</p>
+                    </article>
+                    <article class="diferencial">
+                        <div class="diferencial__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+                        </div>
+                        <h3>Segurança Nativa</h3>
+                        <p>IDS/IPS, firewall, conformidade LGPD e hardening desde a arquitetura</p>
+                    </article>
+                    <article class="diferencial">
+                        <div class="diferencial__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+                        </div>
+                        <h3>29 Anos de Expertise</h3>
+                        <p>Fundada em 1995, experiência profunda em TI e Telecomunicações corporativas</p>
+                    </article>
+                    <article class="diferencial">
+                        <div class="diferencial__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 14.21 3 3 3 0 0 0 17 12H7a9 9 0 0 0-1 10"/></svg>
+                        </div>
+                        <h3>Parcerias Globais</h3>
+                        <p>Alianças estratégicas com fornecedores líderes mundiais de tecnologia</p>
+                    </article>
+                    <article class="diferencial">
+                        <div class="diferencial__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        </div>
+                        <h3>Equipe Especializada</h3>
+                        <p>Certificações em cloud, segurança, redes, desenvolvimento e gestão de projetos</p>
+                    </article>
+                    <article class="diferencial">
+                        <div class="diferencial__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                        </div>
+                        <h3>ROI Mensurável</h3>
+                        <p>Métricas claras de redução de custos, aumento de uptime e produtividade</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta" aria-labelledby="cta-title">
+            <div class="container">
+                <div class="cta__content">
+                    <h2 id="cta-title" class="cta__title">Pronto para transformar sua TI?</h2>
+                    <p class="cta__text">Agende uma conversa sem compromisso. Entendemos seu cenário e apresentamos o melhor caminho.</p>
+                    <div class="cta__actions">
+                        <a href="contato.html" class="btn btn--primary btn--lg">Iniciar Conversa</a>
+                        <a href="https://wa.me/5511999999999" class="btn btn--white btn--lg" target="_blank" rel="noopener noreferrer">Chamar no WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <a href="index.html" class="footer__logo" aria-label="I9vation - Página inicial">
+                        <svg class="footer__logo-icon" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                            <rect width="32" height="32" rx="8" fill="currentColor"/>
+                            <path d="M8 16L14 22L24 10" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span class="footer__logo-text">I9vation</span>
+                    </a>
+                    <p class="footer__tagline">Inteligência e Alta Tecnologia desde 1995</p>
+                    <div class="footer__social" aria-label="Redes sociais">
+                        <a href="https://linkedin.com/company/i9vation" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        </a>
+                        <a href="https://github.com/i9vation" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                        </a>
+                        <a href="https://youtube.com/@i9vation" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <nav class="footer__nav" aria-label="Navegação do rodapé">
+                    <div class="footer__nav-col">
+                        <h4>Serviços</h4>
+                        <ul>
+                            <li><a href="servicos/index.html#consultoria">Consultoria</a></li>
+                            <li><a href="servicos/index.html#analise">Análise</a></li>
+                            <li><a href="servicos/index.html#prototipacao">Prototipação</a></li>
+                            <li><a href="servicos/index.html#desenvolvimento">Desenvolvimento</a></li>
+                            <li><a href="servicos/index.html#implantacao">Implantação</a></li>
+                            <li><a href="servicos/index.html#suporte">Treinamento & Suporte</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__nav-col">
+                        <h4>Empresa</h4>
+                        <ul>
+                            <li><a href="sobre.html">Sobre Nós</a></li>
+                            <li><a href="casos.html">Cases</a></li>
+                            <li><a href="blog/index.html">Blog</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__nav-col">
+                        <h4>Contato</h4>
+                        <ul>
+                            <li><a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">WhatsApp: (11) 99999-9999</a></li>
+                            <li><a href="mailto:contato@i9vation.com">contato@i9vation.com</a></li>
+                            <li>São Paulo - SP</li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 I9vation Soluções em Tecnologia. Todos os direitos reservados.</p>
+                <div class="footer__legal">
+                    <a href="/politica-privacidade.html">Política de Privacidade</a>
+                    <a href="/termos-uso.html">Termos de Uso</a>
+                    <a href="/lgpd.html">LGPD</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

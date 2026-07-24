@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Checklist Técnico FW1</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 40px auto; padding: 20px; border: 1px solid #ccc; }
+        h1 { text-align: center; color: #d32f2f; border-bottom: 2px solid #d32f2f; padding-bottom: 10px; }
+        h3 { background: #f4f4f4; padding: 10px; border-left: 5px solid #d32f2f; }
+        .item { margin-bottom: 10px; display: flex; align-items: center; }
+        input[type="checkbox"] { margin-right: 10px; transform: scale(1.2); }
+        .footer { margin-top: 40px; border-top: 1px solid #eee; padding-top: 20px; }
+        .sign { margin-top: 30px; display: flex; justify-content: space-between; }
+        .line { border-top: 1px solid #333; width: 45%; text-align: center; font-size: 0.8em; margin-top: 40px; }
+        @media print { body { border: none; margin: 0; } .no-print { display: none; } }
+    </style>
+</head>
+<body>
+    <h1>📋 Checklist de Entrega Técnica - FW1</h1>
+    <p><strong>Equipe:</strong> Especializada (Pedro/Rodrigo)</p>
+    <p><strong>Chamado/Projeto:</strong> _______________________________________ <strong>Data:</strong> ____/____/____</p>
+
+    <h3>🖥️ 1. SERVIDORES</h3>
+    <div class="item"><input type="checkbox"> Logs de Eventos e Erros Críticos verificados.</div>
+    <div class="item"><input type="checkbox"> Backup/Snapshot realizado e validado.</div>
+    <div class="item"><input type="checkbox"> Serviços (IIS, SQL, Docker) ativos pós-reboot.</div>
+    <div class="item"><input type="checkbox"> Firewall e regras de segurança aplicadas.</div>
+    <div class="item"><input type="checkbox"> Monitoramento (Zabbix/Grafana) respondendo.</div>
+
+    <h3>🌐 2. SWITCHES & REDES</h3>
+    <div class="item"><input type="checkbox"> Comando de persistência executado (Write Memory).</div>
+    <div class="item"><input type="checkbox"> VLANs tagueadas conforme padrão do cliente.</div>
+    <div class="item"><input type="checkbox"> Trunking e Spanning Tree (STP) validados.</div>
+    <div class="item"><input type="checkbox"> Nomenclatura de interfaces padronizada.</div>
+
+    <h3>💻 3. DESKTOPS</h3>
+    <div class="item"><input type="checkbox"> Backup de dados do usuário validado.</div>
+    <div class="item"><input type="checkbox"> Ingressado no Domínio e GPOs aplicadas.</div>
+    <div class="item"><input type="checkbox"> Antivírus e VPN instalados/atualizados.</div>
+    <div class="item"><input type="checkbox"> Ambiente limpo e cabos organizados.</div>
+
+    <h3>⚠️ 4. PROTOCOLO OPERACIONAL</h3>
+    <div class="item"><input type="checkbox"> Execução focada (sem ruídos/distração).</div>
+    <div class="item"><input type="checkbox"> Revisão cruzada (Peer Review) realizada.</div>
+
+    <div class="footer">
+        <div class="sign">
+            <div class="line">Assinatura do Técnico</div>
+            <div class="line">Visto Coordenação (Mestre)</div>
+        </div>
+    </div>
+
+    <p class="no-print" style="margin-top:50px; text-align:center; color: #666;">
+        <em>Dica: Abra este arquivo e use Ctrl+P para salvar como PDF.</em>
+    </p>
+</body>
+</html>

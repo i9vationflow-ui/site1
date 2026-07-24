@@ -1,0 +1,20 @@
+[main/sessions/main/44612db6-c650-49ab-b7f5-9a625347831d.jsonl.reset.2026-07-13T04-41-31.003Z#L5] User: /start
+[main/sessions/main/44612db6-c650-49ab-b7f5-9a625347831d.jsonl.reset.2026-07-13T04-41-31.003Z#L6] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/44612db6-c650-49ab-b7f5-9a625347831d.jsonl.reset.2026-07-13T04-41-31.003Z#L9] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/44612db6-c650-49ab-b7f5-9a625347831d.jsonl.reset.2026-07-13T04-41-31.003Z#L11] User: Olá teste
+[main/sessions/main/44612db6-c650-49ab-b7f5-9a625347831d.jsonl.reset.2026-07-13T04-41-31.003Z#L12] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/5631453d-3aa1-434f-8b37-5e30f9a6ebd5.jsonl#L29] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/abac80f3-b783-4bfb-8104-ae4a106569ad.jsonl.reset.2026-07-12T12-50-29.964Z#L118] User: openclaw chat "Qual é a capital do Brasil?"
+[main/sessions/main/abac80f3-b783-4bfb-8104-ae4a106569ad.jsonl.reset.2026-07-12T12-50-29.964Z#L119] Assistant: ⚠️ Agent failed before reply: Unknown model: openai/duckduckgo. Logs: openclaw logs --follow
+[main/sessions/main/abac80f3-b783-4bfb-8104-ae4a106569ad.jsonl.reset.2026-07-12T12-50-29.964Z#L120] User: openclaw chat "Qual é a capital do Brasil?"
+[main/sessions/main/abac80f3-b783-4bfb-8104-ae4a106569ad.jsonl.reset.2026-07-12T12-50-29.964Z#L121] Assistant: ⚠️ Agent failed before reply: Unknown model: openai/duckduckgo. Logs: openclaw logs --follow
+[main/sessions/main/abac80f3-b783-4bfb-8104-ae4a106569ad.jsonl.reset.2026-07-12T12-50-29.964Z#L122] User: openclaw models list
+[main/sessions/main/abac80f3-b783-4bfb-8104-ae4a106569ad.jsonl.reset.2026-07-12T12-50-29.964Z#L123] Assistant: ⚠️ Agent failed before reply: Unknown model: groq/llama-3.1-8b-instruct. Logs: openclaw logs --follow
+[main/sessions/main/abac80f3-b783-4bfb-8104-ae4a106569ad.jsonl.reset.2026-07-12T12-50-29.964Z#L124] User: openclaw models list
+[main/sessions/main/abac80f3-b783-4bfb-8104-ae4a106569ad.jsonl.reset.2026-07-12T12-50-29.964Z#L125] Assistant: ⚠️ Agent failed before reply: Unknown model: groq/llama-3.1-8b-instruct. Logs: openclaw logs --follow
+[main/sessions/main/abac80f3-b783-4bfb-8104-ae4a106569ad.jsonl.reset.2026-07-12T12-50-29.964Z#L127] Assistant: ⚠️ Agent failed before reply: Unknown model: groq/llama-3.1-8b-instruct. Logs: openclaw logs --follow
+[main/sessions/main/abac80f3-b783-4bfb-8104-ae4a106569ad.jsonl.reset.2026-07-12T12-50-29.964Z#L128] User: VAMOS TESTAR UAI
+[main/sessions/main/abac80f3-b783-4bfb-8104-ae4a106569ad.jsonl.reset.2026-07-12T12-50-29.964Z#L129] Assistant: ⚠️ Agent failed before reply: Unknown model: groq/llama-3.1-8b-instruct. Logs: openclaw logs --follow
+[main/sessions/main/abac80f3-b783-4bfb-8104-ae4a106569ad.jsonl.reset.2026-07-12T12-50-29.964Z#L131] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/abac80f3-b783-4bfb-8104-ae4a106569ad.jsonl.reset.2026-07-12T12-50-29.964Z#L135] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/abac80f3-b783-4bfb-8104-ae4a106569ad.jsonl.reset.2026-07-12T12-50-29.964Z#L138] User: xzz\xfzsa
