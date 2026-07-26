@@ -1,0 +1,30 @@
+*Cronograma:*
+INTRODUÇÃO A SISTEMAS OPERACIONAIS *25/07* às *09:00h*
+PROCESSOS E THREADS *25/07* às *11:00h*
+ENTRADA E SAÍDA
+SISTEMAS DE ARQUIVOS
+
+
+Disciplina: *INTRODUÇÃO A SISTEMAS OPERACIONAIS*
+Bloco 1: Definição de Sistemas Operacionais
+Bloco 2: Histórico dos Sistemas Operacionais
+Bloco 3: Conceitos Iniciais Sobre Sistemas Operacionais
+Bloco 4: Estrutura dos Sistemas Operacionais
+
+Disciplina: *PROCESSOS E THREADS*
+Bloco 1: Conceito de Processos e Threads
+Bloco 2: Comunicação e Escalonamento de Processos
+Bloco 3: Gerenciamento de Memória
+Bloco 4: Algoritmos de Substituição de Páginas
+
+Disciplina: *ENTRADA E SAÍDA*
+Bloco 1: Princípios de Hardware e Software
+Bloco 2: Gerenciamento de Discos
+Bloco 3: Clocks
+Bloco 4: Terminais
+
+Disciplina: *SISTEMAS DE ARQUIVOS*
+Bloco 1: Arquivos e Diretórios
+Bloco 2: Desempenho do Sistema de Arquivos
+Bloco 3: Segurança Em Sistemas de Arquivos
+Bloco 4: Mecanismos de Proteção Em Sistemas de Arquivos
