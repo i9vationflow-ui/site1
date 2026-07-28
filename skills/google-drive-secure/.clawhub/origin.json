@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "google-drive-secure",
+  "installedVersion": "1.0.9",
+  "installedAt": 1785193435719,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "13a47dad4bb6f075748fd789368661b9b652db9dc41427d271229eff66e5b6c6",
+    "integrity": "sha256-E6R9rUu28HV0j9eJNoZhubZS253EFCfScSKe/2bltsY="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "4e31d2706ed3be3da077e47dffb3fff33ede6594d8490d3649a2538429f70c26"
+  }
+}

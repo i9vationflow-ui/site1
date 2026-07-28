@@ -257,6 +257,103 @@
           "status": "unsigned"
         }
       }
+    },
+    "google-drive-secure": {
+      "version": "1.0.9",
+      "installedAt": 1785193435719,
+      "registry": "https://clawhub.ai",
+      "artifact": {
+        "kind": "archive",
+        "sha256": "13a47dad4bb6f075748fd789368661b9b652db9dc41427d271229eff66e5b6c6",
+        "integrity": "sha256-E6R9rUu28HV0j9eJNoZhubZS253EFCfScSKe/2bltsY="
+      },
+      "skillFile": {
+        "path": "SKILL.md",
+        "sha256": "4e31d2706ed3be3da077e47dffb3fff33ede6594d8490d3649a2538429f70c26"
+      },
+      "verification": {
+        "schema": "clawhub.skill.verify.v1",
+        "ok": true,
+        "decision": "pass",
+        "reasons": [],
+        "card": {
+          "available": true,
+          "path": "skill-card.md",
+          "url": "https://wry-manatee-359.convex.site/api/v1/skills/google-drive-secure/card?ownerHandle=porteden&version=1.0.9",
+          "sha256": "ec62050c2a4796ce17395ccdef29b269a93ace4ac13921c683e67ee7fd928a98",
+          "size": 2308,
+          "contentType": "text/markdown; charset=utf-8"
+        },
+        "artifact": {
+          "sourceFingerprint": "a384accc9f7e68e1858cbd15994dad839e0c2e4aa73a59854bc62f18da0d1018",
+          "bundleFingerprints": [
+            "f23728cfdbe6e68e33ffc5aa8a459a00588b24c345d3ebd5ba6cd8aba2b9f0f7"
+          ],
+          "files": [
+            {
+              "path": "SKILL.md",
+              "size": 7158,
+              "sha256": "4e31d2706ed3be3da077e47dffb3fff33ede6594d8490d3649a2538429f70c26",
+              "contentType": "text/markdown"
+            }
+          ]
+        },
+        "provenance": {
+          "source": "unavailable",
+          "reason": "No server-resolved GitHub import provenance is stored for this version."
+        },
+        "security": {
+          "status": "clean",
+          "passed": true,
+          "rawStatus": "clean",
+          "verdict": "benign",
+          "confidence": "high",
+          "summary": "This skill is a disclosed Google Drive management helper that uses PortEden credentials for the Drive actions the user asks it to perform.",
+          "model": "gpt-5.5",
+          "checkedAt": 1780182229775,
+          "signals": {
+            "staticScan": {
+              "status": "clean",
+              "rawStatus": "clean",
+              "reasonCodes": [],
+              "summary": "No suspicious patterns detected.",
+              "engineVersion": "v2.4.24",
+              "checkedAt": 1780177971010
+            },
+            "virusTotal": {
+              "status": "clean",
+              "rawStatus": "clean",
+              "verdict": null,
+              "analysis": null,
+              "source": "engines",
+              "scanner": null,
+              "engineStats": {
+                "harmless": 0,
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 64
+              },
+              "checkedAt": 1780181806355
+            },
+            "skillSpector": {
+              "status": "clean",
+              "rawStatus": "clean",
+              "score": 0,
+              "severity": "LOW",
+              "recommendation": "SAFE",
+              "issueCount": 0,
+              "scannerVersion": "2.0.0",
+              "summary": null,
+              "error": null,
+              "checkedAt": 1780182214542
+            },
+            "dependencyRegistry": null
+          }
+        },
+        "signature": {
+          "status": "unsigned"
+        }
+      }
     }
   }
 }
